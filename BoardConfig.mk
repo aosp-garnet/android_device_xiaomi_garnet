@@ -211,6 +211,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/props/system.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/props/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
 
+# Thermal
+BOARD_VENDOR_SUPPORTS_THERMAL := true
+
 # Vendor security patch
 VENDOR_SECURITY_PATCH := 2024-08-01
 
