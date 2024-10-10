@@ -119,6 +119,10 @@ persist.vendor.dpm.vndr.feature=1
 persist.vendor.dpm.vndr.halservice.enable=1
 persist.vendor.dpm.vndr.idletimer.mode=default
 
+# Fingerprint
+ro.vendor.fingerprint.type=udfps
+ro.vendor.fingerprint.sensor_location=504|2332|210|210
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
